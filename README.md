@@ -10,10 +10,10 @@ can see the cloud speech recignition service.
 
 Hardware
 --------
-*Relays controlled by	gpio# 15,18,23,24
-*Google LED		gpio# 25
-*Switch LED		gpio# 8
-*Switch IP		gpio# 7
+* Relays controlled by	gpio# 15,18,23,24
+* Google LED		gpio# 25
+* Switch LED		gpio# 8
+* Switch IP		gpio# 7
 
 Mic and USB wifi used.
 
@@ -58,9 +58,9 @@ Mic setup cmds
 
 Set thi mic p to 2/3 of max gain. The record commands can be used to check the levels.
 
-    alsamixer
-    arecord -D plughw:1,0 test.wav
-    aplay test.wav
+* alsamixer
+* arecord -D plughw:1,0 test.wav
+* aplay test.wav
 
 F6 te select device then go to F4 input.
 
@@ -103,27 +103,27 @@ gitcmds
 
 Files
 -----
-*VoiceCtrlInit.sh	init script - runs the following 3 scripts:
+* VoiceCtrlInit.sh	init script - runs the following 3 scripts:
 
-*gpio.sh		initialises the kernel GPIO driver
-*VoiceCtrl.sh		speech recognition controller, edit this to change cmds
-*ping.sh		controls the google LED
+* gpio.sh		initialises the kernel GPIO driver
+* VoiceCtrl.sh		speech recognition controller, edit this to change cmds
+* ping.sh		controls the google LED
 
-*speech-recog.sh	script to handle conversion only
+* speech-recog.sh	script to handle conversion only
 
-*off_btn.sh		scripts to control GPIO
-*off_led.sh
-*off_r1.sh
-*off_r2.sh
-*off_r3.sh
-*off_r4.sh
-*on_btn.sh
-*on_led.sh
-*on_r1.sh
-*on_r2.sh
-*on_r3.sh
-*on_r4.sh
+* off_btn.sh		scripts to control GPIO
+* off_led.sh
+* off_r1.sh
+* off_r2.sh
+* off_r3.sh
+* off_r4.sh
+* on_btn.sh
+* on_led.sh
+* on_r1.sh
+* on_r2.sh
+* on_r3.sh
+* on_r4.sh
 
-*README.md		Readme file
+* README.md		Readme file
 
-*/dev/shm/Recognition	Dump of last recognised speech for ssh debugging
+* /dev/shm/Recognition	Dump of last recognised speech for ssh debugging
