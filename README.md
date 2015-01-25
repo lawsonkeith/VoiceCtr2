@@ -110,7 +110,7 @@ The files have the following function:
 
 File | Description
 --- | ---
-**VoiceCtrlInit.sh** | init script - runs the following 3 scripts:
+VoiceCtrlInit.sh | init script - runs the following 3 scripts:
 *gpio.sh* | initialises the kernel GPIO driver
 *VoiceCtrl.sh* | speech recognition controller, edit this to change cmds
 *ping.sh* | controls the google LED
