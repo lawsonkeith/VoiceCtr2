@@ -7,6 +7,8 @@ to switch mains voltages.  The box can usse WIFI or a CAT5 connector
 to enable it to do the recognition.  A green LED indicates when the unit
 can see the cloud speech recignition service.
 
+And there's a lot more room in the car.
+![](https://github.com/lawsonkeith/VoiceCtrl2/photo.jpg)
 
 Hardware
 --------
