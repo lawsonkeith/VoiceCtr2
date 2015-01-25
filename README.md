@@ -129,7 +129,7 @@ on_r1.sh |
 on_r2.sh |
 on_r3.sh |
 on_r4.sh | 
-
-* README.md		Readme file
-
-* /dev/shm/Recognition	Dump of last recognised speech for ssh debugging
+ | 
+README.md | This readme file
+ | 
+/dev/shm/Recognition.txt |	Dump of last recognised speech for ssh debugging
